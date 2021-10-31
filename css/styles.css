@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+html, body{
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+header{
+    height: 200px;
+    padding: 20px 0;
+}
+
+.logo{
+    width: 50%;
+    padding-left: 20px;
+}
+
+.logo img{
+    width: 15%;
+}
+
+.menu{
+    padding-top: 30px;
+    width: 50%;
+    text-align: right;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+section.sobre{
+    height: calc(100% - 200px);
+    position: relative;
+}
+
+.extras{
+    border-top-left-radius: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 550px;
+    height: 450px;
+    background-color: #017143;
+}
+
+.extras img{
+    width: 57%;
+    margin-top: -50;
+    margin-left: 75;
+}
+
+.social-media{
+    position: absolute;
+    right: 10px;
+    top: 100px;
+}
+
+.social-media img{
+    block-size: 10;
+    display: block;
+    width: 20px;
+    margin: 20px 0;
+}
+
+.texto-sobre{
+    margin-top: 40px;
+}
+
+.texto-sobre h1{
+    font-size: 60px;
+}
+
+.texto-sobre p{
+    margin: 10px 0;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    max-width: 500px;
+}
+
+.texto-sobre button{
+    border: 0;
+    background-color: #017143;
+    color: white;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}
